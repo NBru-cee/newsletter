@@ -123,7 +123,7 @@ footer {
 .banner article,
 .banner figure {
       flex-basis: 50%;
-      min-height: 80vh;
+      padding: 1rem;
 }
 
 .banner article {
@@ -146,7 +146,7 @@ footer {
       color: var(--secondary-color);
       justify-content: space-between;
       text-transform: uppercase;
-      min-height: 30vh;
+
       margin-top: 4rem;
 }
 
@@ -363,8 +363,13 @@ form button:hover {
 
       .banner,
       .company,
-      .statistics {
+      .statistics,
+      .subsBanner {
             flex-direction: column;
             gap: 2rem;
+      }
+
+      .archive ul li {
+            flex-direction: column;
       }
 }
